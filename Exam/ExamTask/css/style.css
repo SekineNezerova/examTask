@@ -1,0 +1,199 @@
+.banner-section{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/blackimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-font a{
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.nav-font a:hover{
+    color: goldenrod;
+}
+.title .title-agency{
+font-size: 30px;
+color: goldenrod;
+font-family: 'Courgette', cursive;
+
+}
+
+.banner-text{
+color: white;
+text-align: center;
+padding-block: 150px;
+}
+.banner-text h3{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-text h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.mybtn{
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    
+}
+.mybtn span{
+    color: white;
+    font-weight: 700;
+
+}
+/* @media screen and(max-width: 521px){
+    .banner-text h3
+    {
+      font-size: 10px;
+    }
+    .banner-text h1{
+        font-size: 10px;
+       
+    }
+}
+     */
+
+.service{
+    height: 80vh;
+    text-align: center;
+    padding-top: 150px;
+ 
+}
+.service-icons{
+    padding-top: 50px;
+    
+}
+.service-title h1{
+font-weight: 700;
+color: rgb(61, 60, 60);
+}
+.service-title span{
+    color: rgb(119, 117, 117);
+    line-height: 30px;
+   font-style:italic ;
+}
+.icon-btn{
+    width: 100px;
+    height: 100px;
+    background-color: #ffcd39;
+    border-radius: 100%;
+    border: none;
+    color: white;
+    font-size: 40px;
+}
+.service-icons .icon-text{
+padding-top: 25px;
+font-size: 15px;
+line-height: 25px;
+}
+.icon-text h5{
+    font-weight: 700;
+     
+}
+.icon-text span{
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+    
+}
+.portfolio{
+    height: 130vh;
+    text-align: center;
+    padding-top: 130px;
+    background-color:rgb(230, 230, 230);
+    letter-spacing: 1px;
+ 
+}
+.port-grid{
+    padding-top:80px ;
+}
+.portfolio-title h1{
+    font-weight: 700;
+    color: rgb(61, 60, 60);
+    }
+    
+    .port-text{
+        width:390px ;
+        height: 100px;
+        background-color: white;
+        margin-left: 13px;
+        padding-block: 20px;
+    }
+    .second-row{
+        padding-top: 40px;
+    }
+    .port-text h5{
+        font-weight: bold;
+        letter-spacing: 0px;
+    }
+    .port-text span{
+        color: rgb(119, 119, 119);
+        font-style: italic;
+        font-weight: 500;
+    }
+    .image img{
+    width: 390px;
+    transition: all .5 ease;
+    }
+.image img:hover{
+    opacity: .3;
+    
+}
+.small-section{
+    height: 17vh;
+}
+.icons{
+    padding-block: 60px;
+}
+.contact{
+    height: 95vh;
+    text-align: center;
+    padding-top: 150px;
+    background-image: url(../img/endback.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+
+ 
+}
+.contact-title h1{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.contact-title span{
+        color: rgb(119, 117, 117);
+        line-height: 30px;
+       font-style:italic ;
+}
+
+
+.form{
+    padding-top: 70px;
+}
+.footer{
+    height: 50px;
+    padding-block: 20px;
+}
+.mybtn2{
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    
+}
+.mybtn2 span{
+color: white;
+font-weight: 700;
+}
+.footicon i{
+    font-size: 30px;
+    padding-left: 15px;
+}
+.linked a{
+    color: #ffcd39;
+}

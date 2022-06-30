@@ -1,0 +1,135 @@
+﻿@model List<Portfolio>
+            <div class="container">
+                <div class="banner-text">
+                    <h3>Welcome To Our Studio!</h3>
+                    <h1>IT'S NICE TO MEET YOU</h1>
+                    <button type="button" class="btn btn-warning mybtn"><span> TELL ME MORE</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="service">
+            <div class="container">
+                <div class="service-title">
+                    <h1>SERVICES</h1>
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                <div class="service-icons">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <button class="icon-btn">
+                                <i class="bi bi-cart3"></i>
+                            </button>
+                            <div class="icon-text">
+                                <h5>E-Commerce</h5>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</span>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <button class="icon-btn">
+                                <i class="bi bi-laptop"></i>
+                            </button>
+                            <div class="icon-text">
+                                <h5>Responsive Design</h5>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</span>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <button class="icon-btn">
+                                <i class="bi bi-lock-fill"></i>
+                            </button>
+                            <div class="icon-text">
+                                <h5>Web Security</h5>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="portfolio">
+            <div class="container">
+                <div class="portfolio-title">
+                    <h1>PORTFOLIO</h1>
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                <div class="port-grid ">
+                    <div class="row">
+                    @foreach (Portfolio item in Model)
+                    {
+
+                        <div class="col-lg-4 col-12">
+                            <div class="image">
+                                <img src="~/img/@item.Image" alt="">
+                            </div>
+                            <div class="port-text">
+                                <h5>@item.Title</h5>
+                                <span>Website Design</span>
+                            </div>
+                        </div>
+                    }
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="small-section">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 icons">
+                        <img src="~/img/icon1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3 col-12 icons">
+                        <img src="~/img/icon2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3 col-12 icons">
+                        <img src="~/img/icon3.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3 col-12 icons">
+                        <img src="~/img/icon4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact">
+            <div class="container">
+                <div class="contact-title">
+                    <h1>CONTACT US</h1>
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                <div class="form">
+
+                    <form action="_blank">
+
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="form-controller ">
+                                    <input type="text" class="form-control mb-4" id="floatingInputGrid" style="height: 60px" placeholder="Name">
+                                    <input type="email" class="form-control mb-4" id="floatingInputGrid" style="height: 60px" placeholder="Your Email*">
+                                    <input type="text" class="form-control mb-4" id="floatingInputGrid" style="height: 60px" placeholder="Your Phone*">
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="form-controller">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 230px"></textarea>
+                                    <label for="floatingTextarea2">Comments</label>
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                </div>
+                <button type="button" class="btn btn-warning mybtn2"><span>SEND MASSAGE</span></button>
+            </div>
+        </div>
+    </section>
+    
